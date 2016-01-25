@@ -1,0 +1,182 @@
+/* CSS Document */
+
+*{
+margin:0;
+padding:0;
+}
+
+body, html{
+background:#CB3389;
+height:100%;
+width:100%;
+}
+
+fullbody{
+background:#CB3389;
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+}
+
+#container{
+background:#CB3389;
+width:780px;
+height:100%;
+margin:0 auto 0 auto;
+}
+
+#leftgirl{
+width:131px;
+height:234px;
+float:left;
+}
+
+#rightgirl{
+width:130px;
+height:234px;
+float:right;
+background:#000;
+}
+
+#banner{
+background:#000000;
+width:518px;
+height:107px;
+float:left;
+padding-right:1px;
+}
+
+#navmenu{
+background:#CB3389;
+width:516px;
+height:127px;
+float:left;
+}
+
+#content{
+background:#CB3389 url(http://www.offendyourfriends.com/images/resized-back-ground_08.gif) top center repeat-y;
+width:inherit;
+height:100%;
+padding:0 0 20px 0;
+}
+
+#header{
+background:#000;
+width:782px;
+height:234px;
+margin: 0 auto 0 auto;
+}
+
+
+/* this shit is for the side graphics */
+#drums{
+position:absolute;
+left:0;
+top:0;
+background:#CB3389 url(../images/drums.gif) bottom left no-repeat fixed;
+width:122px;
+height:100%;
+margin:0;
+padding-top:5px;
+z-index:1;
+}
+
+
+#guitar{
+position:absolute;
+right:0;
+top:0;
+background:#CB3389 url(../images/guitar.gif) bottom right no-repeat fixed;
+width:122px;
+height:100%;
+margin:0;
+z-index:1;
+}
+
+/* this is the style info ripped form the head of the albums page might have some conflicts
+*/
+#ajaxfiller{
+margin:0 auto 0 auto;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:62.5%;
+background:#000;
+width:490px;
+height:100%;
+color:#cb3398;
+font-family:Verdana, Arial, Helvetica, sans-serif medium;
+}
+
+#ajaxfiller p{
+font-size:1.6em;
+}
+
+.header{
+width:300px;
+height:50px;
+font-size:2.2em;
+}
+
+.info{
+font-size:1.8em;
+}
+
+.details{
+font-size:1.5em;
+}
+
+.info{
+margin-bottom:50px;
+}
+
+#ajaxfiller a{
+text-decoration:none;
+color:#00FF00;
+}
+
+#ajaxfiller a:hover{
+color:#CC5A9A;
+}
+
+#ajaxfiller img{
+border:thin solid #00FF00 3px;
+}
+
+.tracks{
+text-align:center;
+vertical-align:top;
+}
+
+table tr td{
+margin:0;
+padding:0;
+}
+
+
+/*here is the code for the album table */
+#albumtable{
+width:100%;
+}
+
+#albumtable td{
+vertical-align:middle;
+}
+
+/*end of the code for the album table */
+
+.button{
+display:block;
+text-align:center;
+vertical-align:middle;
+width:50px;
+height:20px;
+color:#000;
+text-decoration:none;
+background:#CB3389;
+}
+
+.button a:hover{
+color:#CB3389;
+background:#000;
+}
